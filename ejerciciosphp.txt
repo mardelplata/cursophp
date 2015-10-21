@@ -1,0 +1,90 @@
+
+Ejercicios PHP 2
+
+clase 01
+========
+
+especificacion de Requerimisntos de Software
+
+
+Repaso
+-----------------------
+1) Realice un script en que el usuario elija de una caja de selecciÃ³n "niÃ±o", "niÃ±a", "seÃ±orita", "seÃ±ora" y "seÃ±or" y escriba su nombre y devuelva por ejemplo: "hola niÃ±a MarÃ­a, su sexo es femenino" u "hola seÃ±or Juan, su sexo es masculino".
+
+2) Realice un script PHP que muestre una caja de texto, una combo con las 4 operaciones matemÃ¡ticas bÃ¡sicas, otra caja de texto y un botÃ³n de "calcular" y devuelva el resultado de la operaciÃ³n matemÃ¡tica realizada (una calculadora!... con una interfaz simple).
+
+3) Agregue al ejercicio anterior que se vaya mostrando el histÃ³rico de las operaciones realizadas.
+
+clase 02
+========
+
+Cadenas de caracteres
+---------------------
+1) Realice un script que pida al usuario una frase y muestrela toda en minÃºsculas, toda en mayusculas, con la primer letra en mayusculas y con la primer palabra en mayusculas y el resto en minusculas.
+
+2) Realice un script que ofrezca al usuario una caja de texto y que devuelva el contenido sin espacios ni retornos de carro.
+
+3) Realice un script que pida al usuario 2 palabras, y diga cual esta primero alfabeticamente.
+
+4) Idem 3 para 4 palabras.
+
+5) Realice un script que ofrezca al usuario una caja de texto grande y muestre la entrada del usuario respetando los saltos de linea.
+
+6) Realice un script que a una frase dada por el usuario, muestre el codigo ASCII de cada carÃ¡cter ingresado.
+
+
+Manejo de Fechas
+----------------
+1) Realice un script que solicite la fecha de su prÃ³ximo cumpleaÃ±os y responda cuantos dÃ­as faltan.
+
+2)Realice un script que recibiÃ©ndo un mes y aÃ±o, muestre el mes en una tabla con forma de calendario.
+
+
+Vectores
+--------
+Dado el vector: $vector=array("d"=>"banana", "a"=>"limon","c"=>"pera", "b"=>"anana", "e"=>"sandia");
+
+1) realice un script que ordene con las seis funciones vistas a este vector y lo puestre por pantalla.
+
+2) realice un script que muestre el vector dado dentro de una tabla con una columna para la clave y otra para el valor.
+
+3) realice un script que lea un archivo del disco, lo cargue en un vector (recuerde la funcion file) y lo muestre ordenado alfabeticamente
+
+4) dado un archivo CSV con el formato:
+
+"Dato1";"una informacion"
+"Dato2";"otra informacion"
+"Dato3";"mes cosas"
+
+realice un script que lo lea y muestre los datos ordenados dentro de una tabla similar a la del ejercicio 2.
+
+5) realice un script que tomando datos del usuario genere en archivo del ejercicio 4.
+
+6) Realice un script que lea un archivo de texto del disco y lo formatee en HTML Debera agregar una cabecera y cada parrafo mostrarlo entre <P> y </P>.
+
+7) Realice un script que lea un archivo HTML del disco y lo muestre con sus respectivos tags
+
+Layout
+======
+
+Clase 3
+=======
+
+Archivos
+--------
+
+1. Realice un script que tome los datos escritos por el usuario en una caja de texto y lo guarde en un archivo llamado cursophp2.txt
+
+2. Realice un script que tome el nombre de archivo y los datos ecritos por el usuario en una caja de texto y lo guarde en un directorio llamado cursophp2.
+
+3. Realice un script que muestre en una caja de texto el contenido del archivo cursophp2.txt y le permita al usuario editarlo.
+
+4. Realice un script que lea los archivos del directorio cursophp2 y se los ofrezca al usuario en una caja de selecciÃ³n. Luego permitr que el usuario edite el archivo seleccionado. Considere que la interfaz este construida con forms html.
+
+
+Upload
+------
+
+1) Realice un script que permita subir archivos a un directorio y luego los muestre listados en una pÃ¡gina con un link para su descarga.
+
+2) idem anterior que permita subir de hasta 5 archivos simultÃ¡neamente.

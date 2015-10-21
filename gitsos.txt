@@ -1,0 +1,3 @@
+git add .
+git commit -m "escribir un lindo mensaje descriptivo"
+git push origin master
