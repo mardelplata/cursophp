@@ -1,0 +1,112 @@
+POO
+SOLO QUIERE QUE SEPAMOS LLERLO
+
+### Paradigmas
+## ESTRUCTURADO ---> datos + algoritmos = software
+## POO ---> herencia + polimorfismo + encapsulamiento + garbage colection + 
+binding dinamico.
+
+smaltock es solo poo
+
+objetos: se define con la palabra class (clasificacion), esta tiene un 
+atributo y 2 metodos como minimo 
+
+Con iteartoragregate me permite usar un foreach.
+
+
+ejemplo:
+<?php
+
+class Punto {
+	private $x = 0.0;
+	
+	function getX() {
+		return $this->x ;
+	}
+	function setX($v) {
+		$this->x = $v;		
+	}
+	
+	function __construct ($v=0) {
+		$this->setX($v);
+	}
+	function distancia() {
+		return abs($this->getX() );	
+	}
+}
+
+class PuntoPlano extends Punto {
+	private $y = 0.0;
+	
+	function getY() {
+		return $this->y ;
+	}
+	function setY($v) {
+		$this->y = $v;		
+	}
+	
+	function __construct ($v1=0, $v2=0) {
+		parent::__construct($v1);
+		$this->setY($v2);
+	}
+	function distancia() {
+		return sqrt( $this->getX()*$this->getX() + $this->getY()*$this->getY() );	
+	}
+}
+
+class Collection implements IteratorAggregate {
+	private $items = array();
+	// Total de la colección
+	private $total = 0;
+	// Métodos
+	public function getIterator() {
+		return new ArrayIterator($this->items);
+	}
+
+	public function add(Punto $obj) { $this->items[] = $obj;	}
+
+	function getTotal() { return count($this->items); }
+	function setTotal($v) { throw new Exception("No es valido asignar Total."); }
+}
+
+$p = new Punto(2);
+print("P vale {$p->getX()}<br>");
+print("Distancia {$p->distancia()}<br>");
+$p->setX(-3);
+print("P vale ahora {$p->getX()}<br>");
+print("Distancia {$p->distancia()}<br><br>");
+
+
+$q = new PuntoPlano(2,4);
+print("Q vale {$q->getX()},{$q->getY()}<br>");
+$q->setX(3);
+$q->setY(4);
+print("Q ahora vale {$q->getX()},{$q->getY()}<br>");
+print("Distancia {$q->distancia()}<br><br>");
+
+$c = new Collection();
+$c->add($p);
+$c->add($q);
+$c->add($p);
+
+foreach($c as $o) {
+	print("Distancia: {$o->distancia()}<br>");	
+}
+
+print("La coleccion tiene {$c->getTotal()} elementos<br>");
+
+try {
+	$c->setTotal(4);
+} catch (Exception $e) {
+	print("hubo un error");
+}
+
+var_dump($q);
+$v = serialize($q);
+print("<br>q serializado es: $v");
+
+
+$w = unserialize($v);
+var_dump($w);
+
+var_dump($c);

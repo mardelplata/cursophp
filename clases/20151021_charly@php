@@ -1,0 +1,47 @@
+
+
+###################
+no se mandan rutas por url.
+se pueden hacer 2 cosas
+1.- no dejar que haya .. o no dejar que haya barra ahi nomas desde el codigo.
+2.- como parametro mandar un numero y que se corresponda con el scandir y ahi se valida si es un numero o no.
+###################
+
+ACUERDENSE DE VALIDAR CON EL VALIDATOR DE LA 3w.org
+
+primero va el php
+
+
+
+no gurdar con un <br /> ... usar un caracter de separacion y luego al momento de imprimirlo recien poner el br.
+
+filtervars investigar esta funcion
+usar la funcion inarray para la calculadora
+
+NO USAR CODIGO POSTAL
+SI USAR CODIGO POSTAL ARGENTINO TIENEN 8 CARACTERES ALFANUMERICOS
+
+SRC - Quien accede a cada parte del software es una NO FUNCIONALIDAD, no una funcionalidad
+
+... empezamos con la teoria
+####################
+#   JAVASCRIPT
+#
+La validacion es acotada y no confiable pero se pone igual para evitar que el usuario mande boludeces. mejora la 
+experiencia del usuario contra el sitio.
+
+Como es habitual escribir codigo php para que nos tire html, tambien es muy habitual degenar css o js desde php.
+no tiene la funcion trim la que saca los blancos pero tiene una que saca a derecha y otra a izquierda
+no existe el foreach para los vectores, existe el each
+NO USAR FRAMES HOY SE USAN LOS DIVS
+
+
+BUSCAR PRINCIPIO KISS Y PRINCIPIO DRY
+NO MANIPULAR IAMGENES CON JS, USAR CSS
+
+// NO OLVIDAR TEMA LAYOUTS
+// POR QUE HAY QUE PONER EN UN LAYOUT SOLO 2 INCLUDES
+
+
+
+DIVIDIR (HACER EL TRABAJO o como se hace) DEL (COMO SE MUESTRA)

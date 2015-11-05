@@ -1,0 +1,29 @@
+Javascript
+
+## estamos viendo los eventos de javascript
+el click genera el evento, emision d eventos.
+## tambien los metodos
+diferencias entre alert-confirm-prompt
+
+
+con onsubmit me saco de encima que la pagina tenga o no js
+
+javascript no invasivo o no intrusivo
+
+ultimo tema de js
+
+XHR XMLHttpRequest
+
+
+QUE es DTD?
+ XHR XMLHttpRequest
+ 
+el turulo XHR XMLHttpRequestintenta comunicarse via http y pasarse xml
+
+
+AJAX es algo que no existe
+unos flacos en europa descubrieron el elemento xhr.
+siempre la rta la analizo como un texto y despues la parseo
+response.text 
+INVESTIGAR SOBRE response.xml
+

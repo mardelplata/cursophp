@@ -1,0 +1,6 @@
+http://developer.android.com/training/location/index.html
+http://www.maestrosdelweb.com/guia-mapas-geolocalizacion-moviles/
+
+
+
+sistema de gestion de reserva de carpas
