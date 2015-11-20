@@ -1,0 +1,66 @@
+ ## 20151118  Base de Datos
+ # SYSDBA
+
+
+ # RDBMS   -----  mysql - mariadb
+          -----  postgres
+          -----  oracle
+
+
+	  ----- mongo
+          ----- coch
+
+
+ 
+ Adentro de una RDBMS tenemos ----USR
+                             ----DB         ------ tablas     ------ registros
+                                                              ------ campos
+
+
+
+                                            ------ store procedures
+                                            ------ indices
+                                            ------ triggers
+
+
+
+
+ Los servidores de bases de datos tienen la caracteristica
+
+ ACID
+	A tomicidad  ---- que no se puede dividir la query
+	C onsistencia ---- que esas cosas atomicas si se interrumpen, hacen un rolback y no hace insconsistencias
+	I aislamiento ---- (isolated) 
+	D urabilidad
+
+ Un RDBMS debe tener bien separado los user con sus db y deben cumplir las ACID.
+ Las base de datos necesitan un lenguaje para poder trabajar con ellas, ese lenguaje de consulta estructurada o en ingles Structure Query Languaje SQL.
+
+ Investigar SeQueL que fue el creador del lenguaje
+SQL es un lenguaje potente 
+ SQL ----- DDL data definicion languaje 
+     ----- DML data manipulation languaje  
+ si no hay ACID no hay RDBMS 
+ NO TODA BASE DE DATOS TIENE QUE SER RELACIONAL
+ 
+ 
+ RDBMS
+  NORMALIZACION
+  
+  INVESTIGAR CODD
+  
+  Que son las formas normales
+  los nombre de las tablas en plural
+  
+  un registro es la minima unidad de direccionamiento que tiene una tablas
+  no se puede normalizar sin el contexto del problema
+  
+leer neuromante
+https://www.google.com.ar/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=neuromante%20pdf
+
+
+IMPORTANTISIMOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+n a n requiere una nueva tabla
+ 
+ 
+ 

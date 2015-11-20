@@ -1,0 +1,23 @@
+Nombre y Apellido:
+Ruta absoluta a los ejercicios:
+
+    PHP Avanzado - Evaluacion Comision Miercoles - 2do cuatrimestre 2015
+    
+Practico
+1) Realice un script PHP en que se ingrese una fecha en formato dd-mm-aaaa o dd/mm/aa y
+   devuelva cuantos dias faltan para fin del año ingresado. Valide con JavaScript que la fecha tenga
+   datos validos.
+2) Realice un script PHP que dado un numero entero ingresado, devuelva la denominacion y cantidad
+   de billetes minima para dar esa cantidad en pesos.
+3) Realice un script PHP que suba solo archivos CSV al subdirectorio ./data, cree un indice en donde
+   se vean los archivos subidos, y al clickear sobre uno, muestre el contenido en una tabla HTML que
+   contenga cada dato en una celda.
+   
+Teorico
+1) Defina que es un algoritmo. De un ejemplo de algoritmo que no sea del ambito informatico.
+2) Explique con sus palabras el proceso por el cual un script php que es invocado desde un navegador
+   muestra el contenido de un archivo guardado en el servidor.
+3) Explique el concepto de "layout".
+4) Explique con sus palabras que caracteristicas debe tener una Especificacion de Requerimientos de
+   Software.
+5) Explique con sus palabras que es el ambito de una variable en el lenguaje PHP.

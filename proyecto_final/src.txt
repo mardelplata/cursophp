@@ -1,6 +1,43 @@
 http://developer.android.com/training/location/index.html
 http://www.maestrosdelweb.com/guia-mapas-geolocalizacion-moviles/
 
-
-
 sistema de gestion de reserva de carpas
+sistema de inscripcion a eventos
+sistema de gestion de afiliados con descuentos
+
+Especificacion de Requerimientos de Software
+============================================
+Version 0.1	19/11/2015
+
+Requerimientos Empresariales
+----------------------------
+El sistema se construye para fortalezer y agilizar la gestion de afiliados y sus 
+respectivos informes para los descuentos mensuales que realiza Loteria.
+
+Requerimientos No Funcionales
+-----------------------------
+- PHP
+- HTML
+- JavaScript
+- MariaDB
+
+
+Requerimientos Funcionales
+--------------------------
+1) El sistema debe gestionar personas.
+2) El sistema debe gestionar casinos (ubicaciones).
+3) El sistema debe gestionar afiliados a partir de las persona[1] registradas.
+4) El sistema debe gestionar sectores de descuentos.
+5) El sistema debe gestionar descuentos.
+6) El sistema debe gestionar informes mensuales de descuento por afiliados[3].
+7) El sistema debe gestionar informes mensuales generales.
+
+Diccionario:
+------------
+Persona: nombre, apellido, fecha de nacimiento, direcciones, telefonos.
+Casino: nombre, localidad, provincia.
+Afiliado: fecha de alta, fecha de baja, persona.
+Sectore de Descuentos: nombre, comentario.
+Descuento: importe, sector, afiliado, fecha.
+Informe mensual por afiliado: afiliado, sector de descuento, 
+Informe mensual general:
