@@ -1,0 +1,77 @@
+Especificacion de Requerimientos de Software
+============================================
+Version 0.1	19/11/2015
+
+Requerimientos Empresariales
+----------------------------
+El sistema debe promocionar y gestionar la inscripcion a distintos tipos 
+de eventos.
+
+Requerimientos No Funcionales
+-----------------------------
+- PHP
+- HTML
+- JavaScript
+- MariaDB
+
+
+Requerimientos Funcionales
+--------------------------
+x) El sistema debe gestionar personas.
+1) El sistema debe gestionar inscriptos[x].
+2) El sistema debe gestionar eventos.
+3) El sistema debe gestionar novedades[2].
+4) El sistema debe gestionar pagos y donaciones con aplicaciones de terceros. 
+5) El sistema debe generar un comprobante de inscripcion mediante codigo QR.
+6) El sistema debe registrar datos del inscripto mediante una autenticacion con 
+   software de terceros (fb, Gm, etc).
+
+Diccionario:
+------------
+Telefono: cod_area_int, cod_area_local, numero_telefono.
+Personas: nombre, apellido, sexo, fecha de nacimiento, telefono, mail.
+Inscriptos: id_personas, QR.
+eventos: nombre, descripcion, requisito, fecha_promocion, fecha_apertura, 
+         fecha_cierre, direccion, responsable.
+novedades: titulo, fecha, comentario.
+pagos: segun app de terceros.
+donaciones: segun app de terceros.
+comprobante: id_evento, id_inscripto, QR.
+
+Tablas:
+mysql> CREATE TABLE Eventos (
+        id_evento INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        nombre VARCHAR(100),
+        Descripcion TEXT,
+        Requisito TEXT,
+        fecha_promocion DATETIME,
+        fecha_apertura DATETIME,
+        fecha_cierre DATETIME,
+        direccion VARCHAR(100),
+        responsable INT; #id_persona
+        );
+
+
+        CREATE TABLE Personas (
+         id_persona INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+         nombre VARCHAR(50),
+         apellido VARCHAR(50),
+         sexo CHAR(1),
+         nacimiento DATE,
+         telefono: #falta definir
+       );
+       
+       CREATE TABLE Inscriptos (
+        id_inscripto INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        id_persona INT,
+        pago BOOLEAN,
+       );
+       
+       
+
+
+
+
+
+
+

@@ -27,17 +27,20 @@ Requerimientos Funcionales
 1) El sistema debe gestionar personas.
 2) El sistema debe gestionar casinos (ubicaciones).
 3) El sistema debe gestionar afiliados a partir de las persona[1] registradas.
-4) El sistema debe gestionar sectores de descuentos.
-5) El sistema debe gestionar descuentos.
-6) El sistema debe gestionar informes mensuales de descuento por afiliados[3].
-7) El sistema debe gestionar informes mensuales generales.
+4) El sistema debe gestionar sectores de descuento.
+5) El sistema debe gestionar el descuento de cada afiliado y el descuento general 
+   que es entregado mensualmente a loteria para que genere las retenciones.
+##6) El sistema debe gestionar informes mensuales de descuento por afiliados[3].
+##7) El sistema debe gestionar informes mensuales generales.
 
 Diccionario:
 ------------
-Persona: nombre, apellido, fecha de nacimiento, direcciones, telefonos.
-Casino: nombre, localidad, provincia.
+Persona: nombre, apellido, fecha de nacimiento, direcciones, telefonos, dni.
+Casino: nombre, localidad, provincia, direccion, telefono.
 Afiliado: fecha de alta, fecha de baja, persona.
-Sectore de Descuentos: nombre, comentario.
+Sectore de Descuento: nombre, comentario.
 Descuento: importe, sector, afiliado, fecha.
-Informe mensual por afiliado: afiliado, sector de descuento, 
+## Sobre los descuentos hay que desarrollar los planes de pago teniendo encuenta
+que loteria no puede retener mas de un porcentaje determinado %30.
+Informe mensual por afiliado: afiliado, sector de descuento,
 Informe mensual general:
